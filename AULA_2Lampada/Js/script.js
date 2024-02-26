@@ -51,7 +51,8 @@ function mult (){
 }
 
 function resetar (){
-    apagar()
+    lamp.src = "img/desligada.jpg"
+    estado.innerHTML = "A lâmpada esá DESLIGADA"
 }
 
 ligar.addEventListener('click',acender)

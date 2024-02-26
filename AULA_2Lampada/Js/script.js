@@ -1,6 +1,7 @@
 const ligar = document.getElementById ('ligar')
 const desligar = document.getElementById ('desligar')
 const ambos = document.getElementById ('ambos')
+const reset = document.getElementById ('reset')
 const lamp = document.getElementById ('lamp')
 const estado = document.getElementById ('estado')
 
@@ -49,6 +50,10 @@ function mult (){
     
 }
 
+function resetar (){
+    lamp.src = "img/desligada.jpg"
+}
+
 ligar.addEventListener('click',acender)
 desligar.addEventListener('click',apagar)
 
@@ -57,3 +62,4 @@ lamp.addEventListener('mouseleave',apagar)
 lamp.addEventListener('dblclick',quebrar)
 
 ambos.addEventListener('click', mult)
+reset.addEventListener('click',resetar)

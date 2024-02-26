@@ -51,7 +51,7 @@ function mult (){
 }
 
 function resetar (){
-    lamp.src = "img/desligada.jpg"
+    apagar()
 }
 
 ligar.addEventListener('click',acender)

@@ -1,2 +1,7 @@
 # Aulas-IW-II
-http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_2Lampada
+
+## Lampada
+http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_2
+
+## Calculadora
+http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_3

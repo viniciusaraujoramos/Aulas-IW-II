@@ -10,8 +10,35 @@
 <body>
     <div id="container">
         <h1>Calculadora de IMC</h1>
-    </div>
 
+        <div id="alt">
+            <p>Digite sua altura:</p>
+            <input name="altura" id="altura" value="" type="float">
+        </div>
+        <div id="pes">
+            <p>Digite seu peso:</p>
+            <input name="peso" id="peso" value="" type="float">
+        </div> 
+        <div id="sex">
+            <p>Qual seu sexo:</p>
+            <select name="sexo" id="sexo">
+                <option value="mas">Masculino</option>
+                <option value="fem">Feminino</option>
+            </select>
+        </div>        
+        <div>
+        <Button id="calcular" onclick="calcular()">Calcular</Button>
+        </div>
+
+        <h2>Resultado:</h2>
+        <p><span id="resultado">0</span></p>
+
+        <h2>Diagnostico:</h2>
+        <p id="diagnostico"></p>
+
+        <button>Novo Calculadora</button>
+            
+    </div>
 
     <script src="script.js"></script>
 </body>

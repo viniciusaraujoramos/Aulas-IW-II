@@ -6,5 +6,5 @@ http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_2
 ## Calculadora
 http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_3
 
-## Calculadora
+## Calculadora IMC
 http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_4

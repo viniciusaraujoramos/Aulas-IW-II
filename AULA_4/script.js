@@ -12,7 +12,7 @@ function diag(calcular){
     if(sexo=='mas'){
         if (imc < 20){
             diagnostico.innerHTML = "Abaixo do peso"
-        }
+        } 
         else if (19 > imc && imc < 24){
             diagnostico.innerHTML = "Normal"
         }

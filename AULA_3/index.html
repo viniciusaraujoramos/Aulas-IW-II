@@ -7,31 +7,36 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Calculadora</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-</head>
 <body>
-    <div class="container">
-        <h1 class="titulo">CALCULADORA</h1>
+    <section>
+        <div class="container">
+            <div class="lado">
+                <h1>CALCULADORA V_CIN</h1>
+            </div>
+            <div class="lado">
+                <h2>Digite o primeiro número:</h2>
+                <input id="n1" name="n1" value="" type="float">
+            </div>
+            <div class="lado">
+                <h2>Digite o segundo número:</h2>
+                <input id="n2" name="n2" value="" type="float">
+            </div>
+            <div class="lado">
+                <h2>Escolha a operação:</h2>
+            </div>
+            <div class="lado"> 
+                <button id="somar" onclick="soma()">Soma</button>
+                <button id="subtrair" onclick="subtracao()">Subtração</button> 
+                <button id="multipicar" onclick="multiplicacao()">Multiplicação</button>
+                <button id="dividir" onclick="divisao()">Divisão</button>
+                <button id="limpar" onclick="limpa()">Limpar</button>
+            </div>
+            <div class="lado">
+                <h2>O resultado é: <span id="resultado">0</span></h2>
+            </div>
+        </div>
+    </section>
 
-        <h2>Digite o primeiro número:</h2>
-        <input id="n1" name="n1" value="" type="float">
-
-        <h2>Digite o segundo número:</h2>
-        <input id="n2" name="n2" value="" type="float">
-
-        <h2>Escolha a operação:</h2>
-
-        <button id="somar" onclick="soma()">Soma</button>
-        <button id="subtrair" onclick="subtracao()">Subtração</button>
-        <button id="multipicar" onclick="multiplicacao()">Multiplicação</button>
-        <button id="dividir" onclick="divisao()">Divisão</button>
-        <button id="limpar" onclick="limpa()">Limpar</button>
-
-        <h2>O resultado é: <span id="resultado">0</span></h2>
-    </div>
-    
     <script src="js/script.js"></script>
 
 </body>

@@ -28,10 +28,12 @@ input{
 }
 
 button{
-    width: 20%;
-    font-size: 2em;
+    width: 8em;
+    font-size: 1.5em;
     color: #013950;
     background-color: rgb(179, 179, 235);
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .container{
@@ -43,6 +45,8 @@ button{
 }
 
 .lado{
-    display: inline;
+    display: inline-flex;
     flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }

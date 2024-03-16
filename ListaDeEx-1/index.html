@@ -6,14 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
     <div id="container">
         <div class="box" id="ex1">
             <h1>Interagindo com o usuario</h1>
-            <button id="exe1" onclick="exercicio1 ()">Clique para começar</button>
+            <button onclick="exercicio1 ()">Clique para começar</button>
         </div>
-
+        <div class="box" id="ex2">
+            <h1>Nome no paragrafo</h1>
+            <button onclick="exercicio2 ()">Clique para começar</button>
+            <p><span id="exe2"></span></p>
+        </div>
+        <div class="box" id="ex3">
+            <h1>Clique no botão e mude o texto</h1>
+            <button onclick="b1 ()">Botão 1</button>
+            <button onclick="b2 ()">Botão 2</button>
+            <button onclick="b3 ()">Botão 3</button>
+            <p><span id="exe3"></span></p>
+        </div>
+        <div class="box" id="ex4">
+            <h1><span id="exer4">Clique no botão e mude a cor</span></h1>
+            <button onclick="c1 ()">vermelho</button>
+            <button onclick="c2 ()">azul</button>
+            <button onclick="c3 ()">verde</button>
+            <p><span id="exe4"></span></p>
+        </div>
+        <div class="box" id="ex5">
+            <h1>Informações do produto</h1>
+            <button onclick="exercicio5 ()">Clique para começar</button>
+            <p><span id="exe5"></span></p>
+        </div>
+        <div class="box" id="ex6">
+            <h1>Compra</h1>
+            <button onclick="exercicio6 ()">Clique para começar</button>
+            <p><span id="info1"></span></p>
+            <p><span id="info2"></span></p>
+            <p><span id="info3"></span></p>
+        </div>
+        <div class="box" id="ex7">
+            <h1>Reajuste salarial</h1>
+            <button onclick="exercicio7 ()">Clique para começar</button>
+            <p><span id="sald"></span></p>
+            <p><span id="porc"></span></p>
+            <p><span id="final"></span></p>
+        </div>
+        <div class="box" id="ex8">
+            <h1>Resolvendo Bhaskara</h1>
+            <p>Considerando uma equação no formato ax²+bx+c=0, aperte o botão acima para calcular o valor de Δ.</p>
+            <button onclick="exercicio8 ()">Clique para começar</button>
+            <p><span id="equacao"></span></p>
+            <p><span id="calculo"></span></p>
+            <p><span id="resultado"></span></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

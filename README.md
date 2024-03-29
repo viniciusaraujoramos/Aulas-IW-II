@@ -10,7 +10,7 @@ http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_3
 http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_4
 
 ## Manipulando Naruto
-http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_5/Manipulando CSS
+http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_5/ManipulandoCSS
 
 ## Calculadora De Média
-http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_5/Calcular Média
+http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_5/CalcularMédia

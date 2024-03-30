@@ -1,7 +1,7 @@
 /* Arquivo JS + alterar CSS */
 
 let titulo = document.querySelector('h1')
-titulo.textContent = 'Aula 09 Manipular CSS'
+//titulo.textContent = 'Aula 09 Manipular CSS'
 //titulo.innerHTML = 'Aula Manipular CSS'
 let imagem = document.querySelector('#foto')
 imagem.setAttribute('src', 'img/pride-fc.jpg')

@@ -9,7 +9,7 @@ http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_3
 ## Calculadora IMC
 http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_4
 
-## Manipulando Naruto
+## Manipulando Super Onze
 http://viniciusaraujoramos.github.io./Aulas-IW-II/AULA_5/ManipulandoCSS
 
 ## Calculadora De Média

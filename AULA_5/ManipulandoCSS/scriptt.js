@@ -51,7 +51,7 @@ function Ronaldinho(){
     titulo.classList.remove('Endo')
     imagem.setAttribute('src', 'img/Carnaval.gif')
     imagem.setAttribute('width', '780px')
-    NTecnica.textContent = 'Mão demoniaca'
+    NTecnica.textContent = 'Fogos de Carnaval'
     Personagem.textContent = 'Ronaldinho'
     Info.textContent = 'Ronaldinho aparece no ultimo arco da obra, como o principal da seleção brasileira, porém tristemente os brasileiros são caracterizados pessimamente'
 }

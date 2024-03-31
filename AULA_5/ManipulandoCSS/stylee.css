@@ -53,7 +53,7 @@ button{
 }
 
 #R{
-    background-color: rgb(19, 97, 0);
+    background-color: rgb(10, 51, 0);
     color: rgb(255, 255, 255);
     border-radius: 2rem;
 }
@@ -126,8 +126,8 @@ button{
     border-radius:5rem;
     margin-left: 3%;
     margin-right: 3%;
-    border-bottom: 7px solid rgb(6, 71, 17);
-    border-right: 7px solid rgb(6, 71, 17);
+    border-bottom: 7px solid rgb(2, 44, 9);
+    border-right: 7px solid rgb(2, 44, 9);
 }
 
 .Goenji{

@@ -7,34 +7,29 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Calculadora</title>
 <body>
-    <section>
-        <div class="container">
-            <div class="lado">
-                <h1>Calculadora do Massa Cinzenta</h1>
-            </div>
-            <div class="lado">
-                <h2>Digite o primeiro número:</h2>
-                <input id="n1" name="n1" value="" type="float">
-            </div>
-            <div class="lado">
-                <h2>Digite o segundo número:</h2>
-                <input id="n2" name="n2" value="" type="float">
-            </div>
-            <div class="lado">
-                <h2>Escolha a operação:</h2>
-            </div>
-            <div class="lado">
-                <button id="somar" onclick="soma()">Soma</button>
-                <button id="subtrair" onclick="subtracao()">Subtração</button> 
-                <button id="multipicar" onclick="multiplicacao()">Multiplicação</button>
-                <button id="dividir" onclick="divisao()">Divisão</button>
-                <button id="limpar" onclick="limpa()">Limpar</button>
-            </div>
-            <div class="lado">
-                <h2>O resultado é: <span id="resultado">0</span></h2>
-            </div>
-        </div>
-    </section>
+    <div class="topo">
+        <h1>Calculadora do Vini</h1>
+    </div>
+    <main>       
+        <section class="lado">
+            <h2>Digite o primeiro número:</h2>
+            <input id="n1" name="n1" value="" type="float">
+            <h2>Digite o segundo número:</h2>
+            <input id="n2" name="n2" value="" type="float">
+        </section>
+        <section class="lado">
+            <h2>Escolha a operação:</h2>
+            <button id="somar" onclick="soma()">Soma</button>
+            <button id="subtrair" onclick="subtracao()">Subtração</button> 
+            <button id="multipicar" onclick="multiplicacao()">Multiplicação</button>
+            <button id="dividir" onclick="divisao()">Divisão</button>
+            <button id="limpar" onclick="limpa()">Limpar</button>
+            <h2>O resultado é: <span id="resultado">0</span></h2>
+        </section>
+        <section class="lado">
+            <img src="img/pensando.png" alt="">
+        </section>
+    </main>
 
     <script src="js/script.js"></script>
 

@@ -8,43 +8,47 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="inteiro">
         <h1>Calculadora de IMC</h1>
-
-        <div id="alt" class="lado">
-            <p>Digite sua altura (Use ponto x.xx):</p>
-            <input name="altura" id="altura" value="" type="number">
-        </div>
-        <div id="pes" class="lado">
-            <p>Digite seu peso:</p>
-            <input name="peso" id="peso" value="" type="number">
-        </div> 
-        <div id="sex" class="lado">
-            <p>Qual seu sexo:</p>
-            <select name="sexo" id="sexo" >
-                <option value=""> 0 </option>
-                <option value="mas">Masculino</option>
-                <option value="fem">Feminino</option>
-            </select>
-        </div>        
-        <div class="lado">
-            <Button id="calcular" onclick="calcular() ">Calcular</Button> 
-        </div>
-
-        <div class="lado">
-            <h2>Resultado:</h2>
-            <p><span id="resultado">0</span></p>
-        </div>
-
-        <div class="lado">
-            <h2>Diagnostico:</h2>
-            <p><span id="diagnostico">0</span></p>
-        </div>
-
-        <div class="lado">
-            <button id="limpa" onclick="limpa()">Novo Calculadora</button>
-        </div>    
     </div>
+    <main>
+        <section class="metade">
+            <div id="alt">
+                <p>Digite sua altura (Use ponto x.xx):</p>
+                <input name="altura" id="altura" value="" type="number">
+            </div>
+            <div id="pes">
+                <p>Digite seu peso:</p>
+                <input name="peso" id="peso" value="" type="number">
+            </div> 
+            <div id="sex">
+                <p>Qual seu sexo:</p>
+                <select name="sexo" id="sexo" >
+                    <option value=""> </option>
+                    <option value="mas">Masculino</option>
+                    <option value="fem">Feminino</option>
+                </select>
+            </div>        
+            <div>
+                <Button id="calcular" onclick="calcular() ">Calcular</Button> 
+            </div>
+        </section>
+        <section class="metade">
+            <div>
+                <h2>Resultado:</h2>
+                <p><span id="resultado">0</span></p>
+            </div>
+
+            <div>
+                <h2>Diagnostico:</h2>
+                <p><span id="diagnostico">0</span></p>
+            </div>
+
+            <div>
+                <button id="limpa" onclick="limpa()">Novo Calculadora</button>
+            </div>    
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>

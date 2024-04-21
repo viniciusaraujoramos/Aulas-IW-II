@@ -23,13 +23,20 @@
 					return false
 				}
 			}, "Tem que ter arroba no começo")
-			jQuery.validator.addMethod("arrobaNoInicio", function(value, element){
-				if (value.indexOf("@") == 0){
+			jQuery.validator.addMethod("RGNUMEROS", function(value, element){
+				if (value.indexOf() > 111111111){
 					return true
 				}else{
 					return false
 				}
-			}, "Tem que ter arroba no começo")
+			}, "Não é um RG valido")
+			jQuery.validator.addMethod("CPFNUMEROS", function(value, element){
+				if (value.indexOf() > 11111111111){
+					return true
+				}else{
+					return false
+				}
+			}, "Não é um CPF valido")
 		
 			$(document).ready(function(){
 				$("#formCadastro").validate({
@@ -53,12 +60,21 @@
 							max: 120
 						},
 						instagram: {
+							required:true,
 							arrobaNoInicio: true
 						},
 						peso: {
 							required: true,
 							min: 1,
 							max: 200
+						},
+						RG:{
+							required: true,
+							RGNUMEROS:true,
+						},
+						CPF:{
+							required: true,
+							CPFNUMEROS:true
 						},
 					},
 					submitHandler: function(form){
@@ -83,10 +99,10 @@
 				<div class="row">
 					<label>Cidade</label>
 					<select name="cidade" id="cidade" class="form-control">
-						<option value="">----</option>
-						<option value="APARECIDA">Aparecida</option>
-						<option value="GUARATINGUETA">Guaratinguetá</option>
-						<option value="CUNHA">Cunha</option>
+						<option value=""></option>
+						<option value="APARECIDA">Maua </option>
+						<option value="GUARATINGUETA">Ribeirão Pires</option>
+						<option value="CUNHA">Santo André</option>
 					</select>
 				</div>
 				<div class="row">
@@ -99,8 +115,16 @@
 				</div>
 				
 				<div class="row">
-					<label>peso</label>
+					<label>Peso</label>
 					<input type="number" name="peso" id="peso" class="form-control" />
+				</div>
+				<div class="row">
+					<label>CPF</label>
+					<input type="number" name="CPF" id="CPF" class="form-control" />
+				</div>
+				<div class="row">
+					<label>RG</label>
+					<input type="number" name="RG" id="RG" class="form-control" />
 				</div>
 				<div class="row">
 					<input type="submit" name="enviar" id="enviar" class="btn btn-primary form-control" />

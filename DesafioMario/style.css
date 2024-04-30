@@ -1,11 +1,17 @@
 /*tela fundo*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 .game-board{
-    width: 80%;
+    width: 100%;
     height: 500px;
-    border: 1px solid black;
+    border-bottom: 15px solid green;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
 /*img do cano*/
@@ -25,10 +31,17 @@
 
 /*chamra class para pular*/
 .jump{
-    animation: jump 500ms ease-out;
+    animation: jump 700ms ;
 }
 
-/*animação do cano*/
+/*nuvens*/
+.clouds{
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 20s infinite linear;
+}
+
+/*animação das nuvens*/
 @keyframes pipe-animation {
     from{
         right: -80px;
@@ -37,20 +50,29 @@
         right: 100%;
     }
 }
+
+/*animação do cano*/
+@keyframes clouds-animation {
+    from{
+        right: -550px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+/*animação do pulo*/
 @keyframes jump{
     0%{
         bottom: 0px;
     }
-    40%{
-        bottom: 180px;
-    }
     50%{
-        bottom: 180px;
-    }
-    60%{
-        bottom: 180px;
+        bottom: 200px;
+
     }
     100%{
         bottom: 0px;
+
     }
+
 }
